@@ -38,34 +38,158 @@
 }
 
 .main{
-  background-color: grey;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  background : transparent;
 }
+
+/** drum-pad components*/
 
 .console{
-  background-color: green;
-  justify-self: center;
-  align-self: center;
-  width: 120vh;
-  height: 60vh;
+  background-color: saddlebrown;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  border-radius: 10px;
 
 }
-
+/** configure console
 .config{
   background-color: blue;
+  height: 80%;
+  left: 65%;
+  position: absolute;
 }
 
+.loop{
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  background-color: aquamarine;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+}
+
+.currentbtn{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-color: aquamarine;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  left: 50%;
+}
+
+
+
+.audiosets{
+  position: absolute;
+  width: 10%;
+  background-color: aquamarine;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 70%;
+  left: 45%;
+}
+<div className={"col-5 config"}>
+   <button className={"loop btn"} id={"C"}>looping</button>
+   <div className={"currentbtn btn"}>placeholder</div>
+   <div className={"audiosets"}>
+       <button className={"audiobtn set1"}>1</button>
+       <button className={"audiobtn set2"}>2</button>
+   </div>
+</div>
+
+*/
+
+/** drumpad console*/
 .drumpad{
   background-color: lightblue;
+  height: 80%;
+  left: 16.5%;
+  position: absolute;
+  border-radius: 10%;
 }
 
-.headwrapper{
-  float: end;
-  display: block;
+.headerwrapper{
+  background-color: saddlebrown;
+  margin-bottom: 1%;
 }
+
+.display{
+  height: 15%;
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  background-color: #282c34;
+  text-align: center;
+  padding-top: 0.2em;
+  color: white;
+  border-radius: 10px;
+  font-size: 180%;
+}
+
+.drum-pad{
+  height: 20%;
+  width: 20%;
+  background-color: white;
+}
+
+.looplist{
+  position: absolute;
+  height: 20%;
+  width: 60%;
+  background-color: #282c34;
+  top: 100%;
+  left: 20%;
+  margin-top: 2%;
+  text-align: center;
+  color: white;
+}
+
+/** drum-pad positions r*:= *th row, c*:= *th column **/
+
+.r1{
+  position: inherit;
+  top: 10%;
+}
+
+.r2{
+  position: inherit;
+  top: 40%;
+}
+
+.r3{
+  position: inherit;
+  top: 70%;
+}
+
+.c1{
+  position: inherit;
+  left: 10%;
+}
+
+.c2{
+  position: inherit;
+  left: 40%;
+}
+
+.c3{
+  position: inherit;
+  left: 70%;
+}
+
+
+
