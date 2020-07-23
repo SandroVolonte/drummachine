@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/drummachine/static/css/main.12f8b2e2.chunk.css",
+    "main.js": "/drummachine/static/js/main.f2a1c1e5.chunk.js",
+    "main.js.map": "/drummachine/static/js/main.f2a1c1e5.chunk.js.map",
+    "runtime-main.js": "/drummachine/static/js/runtime-main.ae9f8a70.js",
+    "runtime-main.js.map": "/drummachine/static/js/runtime-main.ae9f8a70.js.map",
+    "static/js/2.acb11fba.chunk.js": "/drummachine/static/js/2.acb11fba.chunk.js",
+    "static/js/2.acb11fba.chunk.js.map": "/drummachine/static/js/2.acb11fba.chunk.js.map",
+    "index.html": "/drummachine/index.html",
+    "precache-manifest.e5a0588a1f81704777bbebb80a5887e7.js": "/drummachine/precache-manifest.e5a0588a1f81704777bbebb80a5887e7.js",
+    "service-worker.js": "/drummachine/service-worker.js",
+    "static/css/main.12f8b2e2.chunk.css.map": "/drummachine/static/css/main.12f8b2e2.chunk.css.map",
+    "static/js/2.acb11fba.chunk.js.LICENSE.txt": "/drummachine/static/js/2.acb11fba.chunk.js.LICENSE.txt",
+    "static/media/100_vocalize-the-groove.mp3": "/drummachine/static/media/100_vocalize-the-groove.22dcc3d9.mp3",
+    "static/media/80s-Bdrum1.mp3": "/drummachine/static/media/80s-Bdrum1.949a2170.mp3",
+    "static/media/80s-COWBELL1.mp3": "/drummachine/static/media/80s-COWBELL1.f0d44548.mp3",
+    "static/media/80s-CRASH1.mp3": "/drummachine/static/media/80s-CRASH1.912c8db3.mp3",
+    "static/media/80s-TOM1.mp3": "/drummachine/static/media/80s-TOM1.406af532.mp3",
+    "static/media/80s-TOM2.mp3": "/drummachine/static/media/80s-TOM2.ccaca4cc.mp3",
+    "static/media/80s-TOM3.mp3": "/drummachine/static/media/80s-TOM3.17cc29c8.mp3",
+    "static/media/80s-TOM5.mp3": "/drummachine/static/media/80s-TOM5.81e60022.mp3",
+    "static/media/female-harmony.mp3": "/drummachine/static/media/female-harmony.306dea76.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae9f8a70.js",
+    "static/js/2.acb11fba.chunk.js",
+    "static/css/main.12f8b2e2.chunk.css",
+    "static/js/main.f2a1c1e5.chunk.js"
+  ]
+}
